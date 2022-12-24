@@ -4,7 +4,7 @@ def part_one():
             lines = FILE.readlines()
             lines = [x.strip('\n') for x in lines]
         return lines
-    lines = readfile('./1.input.txt')
+    lines = readfile('../1.input.txt')
     sums = []
     sum = 0 
     for line in lines:
@@ -21,7 +21,7 @@ def part_two():
             lines = FILE.readlines()
             lines = [x.strip('\n') for x in lines]
         return lines
-    lines = readfile('./1.input.txt')
+    lines = readfile("./Y22/day1/1.input.txt")
     sums = []
     val = 0 
     for line in lines:
